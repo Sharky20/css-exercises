@@ -1,0 +1,19 @@
+.primary {
+    background-color: rgb(248, 142, 142);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#dos {
+    color: hsl(236, 64%, 52%);
+    font-size: 36px;
+}
+
+.secondary {
+    font-size: 24px
+}
+
+#yonn {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
