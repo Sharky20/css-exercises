@@ -14,21 +14,31 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 8px;
 }
 
-.left-side {
+/* .left-side {
   display: flex;
   justify-content: space-around;
-}
+  /* margin-left: 8px; */
+/* } */
 
-.right-side {
+/* .right-side {
   display: flex;
-  gap: 20px;
-  align-items: center;
-  justify-content: space-around;
+  gap: 16px;
+  align-items: center; */
+  /* justify-content: left; */
+  /* margin-right: 8px; */
+  /* flex-shrink: 0; */
   /* flex-shrink: 0; */
   /* flex-basis: 250px; */
+/* } */ 
+
+
+.left-side, .right-side {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
 .profile-image {
@@ -37,7 +47,6 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  flex-shrink: 0;
 }
 
 .logo {
@@ -52,11 +61,11 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  /* padding: 8px 24px; */
-  padding-top: 0px;
+  padding: 8px 24px;
+  /* padding-top: 0px;
   height: 30px;
   flex-basis: 150px;
-  flex-shrink: 0;
+  flex-shrink: 0; */
 }
 
 a {
@@ -68,5 +77,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 15px;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
