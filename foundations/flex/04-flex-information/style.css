@@ -12,6 +12,42 @@ img {
   font-weight: 900;
 }
 
+.text {
+  text-align: center;
+}
+
+.information-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  justify-content: center;
+}
+
+.image-wrapper {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.flower-info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  align-items: center;
+  gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
